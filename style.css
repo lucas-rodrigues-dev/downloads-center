@@ -1,0 +1,109 @@
+body {
+    background: #0b1e2c;
+    margin: 0; 
+    padding: 0; 
+}
+
+.downloads-center-header {
+    background: #0b1e2c;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-content-logo {
+    display: flex;
+    margin: auto;
+}
+
+.sub-header {
+    background: #fff;
+    height: 50vh;
+}
+
+.sub-header-card-intro {
+    background: #0b1e2c;
+    display: flex;
+    justify-content: center;
+    width: 35vw;
+    height: 40vh;
+    margin: 3rem auto;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    left: 35vw;
+}
+
+.sub-header-card-intro-title {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10vh;
+} 
+
+.sub-header-card-intro-image {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.main-content-cards {
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+}
+
+.main-content-card {
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 1rem;
+    width: 12vw;
+    height: 31.5vh;
+    border: 1px solid #0b1e2c;
+    border-radius: 10px;
+}
+
+.card-image {
+    display: flex;
+    margin: 1rem auto;
+    width: 10vw;
+    height: 13vh;
+    border-radius: 10px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #0b1e2c;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card-subtitle {
+    text-align: center;
+    color: #0b1e2c;
+}
+
+.card-download {
+    background: #189171;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 12vw;
+    height: 3vh;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 500ms; 
+}
+
+.card-download:hover {
+    background: #46BD92;
+    transition: 500ms;
+}
