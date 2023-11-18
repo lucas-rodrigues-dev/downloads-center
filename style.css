@@ -26,7 +26,7 @@ body {
     background: #0b1e2c;
     display: flex;
     justify-content: center;
-    width: 35vw;
+    width: 45%;
     height: 40vh;
     margin: 3rem auto;
     border: none;
@@ -40,7 +40,7 @@ body {
     font-size: 30px;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    margin-top: 10vh;
+    margin-top: 15%;
 } 
 
 .sub-header-card-intro-image {
@@ -61,7 +61,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: .965rem auto;
     width: 12vw;
-    height: 31.5vh;
+    height: 87%;
     border: 1px solid #0b1e2c;
     border-radius: 10px;
 }
