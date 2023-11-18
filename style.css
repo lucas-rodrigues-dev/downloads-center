@@ -49,15 +49,17 @@ body {
 }
 
 .main-content-cards {
-    display: flex;
-    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 4fr);   
+    margin: 0.5rem auto;
     justify-content: center;
 }
 
 .main-content-card {
     background: #fff;
     font-family: 'Montserrat', sans-serif;
-    margin-right: 1rem;
+    margin: .965rem auto;
     width: 12vw;
     height: 31.5vh;
     border: 1px solid #0b1e2c;
@@ -96,6 +98,8 @@ body {
     width: 12vw;
     height: 3vh;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     border: none;
     cursor: pointer;
     border-bottom-left-radius: 10px;
