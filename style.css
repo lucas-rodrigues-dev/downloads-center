@@ -32,7 +32,7 @@ body {
     border: none;
     border-radius: 20px;
     position: absolute;
-    left: 35vw;
+    left: 33vw;
 }
 
 .sub-header-card-intro-title {
@@ -110,4 +110,8 @@ body {
 .card-download:hover {
     background: #46BD92;
     transition: 500ms;
+}
+
+.card-download-button {
+    text-decoration: none;
 }
